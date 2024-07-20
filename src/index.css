@@ -1,6 +1,19 @@
 body{
   font-family: arial, sans-serif;
+  /* Ceci est pour le component ColorPicker */
   /* background-color: hsl(0, 0%, 10%); */
+
+  /* Ceci est pour le component DigitalClock */
+  background-image: url(assets/nature.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .card{
@@ -212,6 +225,18 @@ input[type="text"]{
   margin-left: 10px;
 }
 
+.clock-container{
+  backdrop-filter: blur(5px);
+  /* width: 100vw; */
+  padding: 10px 0;
+}
 
+.clock{
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 0% 0.75);
+}
 
 

@@ -17,6 +17,7 @@ import ImportArrayListComponent from "./ImportArrayListComponent"
 import MyCarObjectComponent from "./MyCarObjectComponent"
 import ToDoList from "./ToDoList"
 import MyUseEffectComponent from "./MyUseEffectComponent"
+import DigitalClock from "./DigitalClock"
 
 
 /*React hook
@@ -72,7 +73,7 @@ function App() {
 
   return (
     <>
-      <MyUseEffectComponent />
+      <DigitalClock />
     </>
   )
 }
