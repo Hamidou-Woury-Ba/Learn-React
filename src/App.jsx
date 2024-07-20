@@ -20,6 +20,7 @@ import MyUseEffectComponent from "./MyUseEffectComponent"
 import DigitalClock from "./DigitalClock"
 import ComponentA from "./ComponentA"
 import MyUseRefComponent from "./MyUseRefComponent"
+import StopWatch from "./StopWatch"
 
 
 /*React hook
@@ -83,7 +84,7 @@ import MyUseRefComponent from "./MyUseRefComponent"
 
   return (
     <>
-      <MyUseRefComponent />
+      <StopWatch />
     </>
   )
 }
