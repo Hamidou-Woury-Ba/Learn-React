@@ -4,7 +4,7 @@ body{
   /* background-color: hsl(0, 0%, 10%); */
 
   /* Ceci est pour le component DigitalClock */
-  background-image: url(assets/nature.jpg);
+  /* background-image: url(assets/nature.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@ body{
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  align-items: center;
+  align-items: center; */
 }
 
 .card{
@@ -239,4 +239,7 @@ input[type="text"]{
   text-shadow: 3px 3px 5px hsl(0, 0%, 0% 0.75);
 }
 
-
+.box{
+  border: 3px solid;
+  padding: 25px;
+}

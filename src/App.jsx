@@ -18,6 +18,7 @@ import MyCarObjectComponent from "./MyCarObjectComponent"
 import ToDoList from "./ToDoList"
 import MyUseEffectComponent from "./MyUseEffectComponent"
 import DigitalClock from "./DigitalClock"
+import ComponentA from "./ComponentA"
 
 
 /*React hook
@@ -46,6 +47,9 @@ import DigitalClock from "./DigitalClock"
     3. useEffect(() => {}, [value]) exécuter lorsque qu'il monté et lorsque le valeur change
 */
 
+/*useContent()
+  React Hook qui permet de partager des valeurs entre plusieurs niveaux de composants sans passer de props à travers chaque niveau
+ */
 function App() {
 
   /* List 
@@ -73,7 +77,7 @@ function App() {
 
   return (
     <>
-      <DigitalClock />
+      <ComponentA />
     </>
   )
 }
