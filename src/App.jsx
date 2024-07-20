@@ -19,6 +19,7 @@ import ToDoList from "./ToDoList"
 import MyUseEffectComponent from "./MyUseEffectComponent"
 import DigitalClock from "./DigitalClock"
 import ComponentA from "./ComponentA"
+import MyUseRefComponent from "./MyUseRefComponent"
 
 
 /*React hook
@@ -50,7 +51,12 @@ import ComponentA from "./ComponentA"
 /*useContent()
   React Hook qui permet de partager des valeurs entre plusieurs niveaux de composants sans passer de props à travers chaque niveau
  */
-function App() {
+
+/*useRef()
+  Ne provoque pas de nouveau rendu lorsque sa valeur change.
+  Lorsque vous voulez qu’un composant se rappelle de certaines informations, mais que vous ne voulez pas que ces informations déclenchent de nouveaux rendus
+*/   
+  function App() {
 
   /* List 
   const fruits = [
@@ -77,7 +83,7 @@ function App() {
 
   return (
     <>
-      <ComponentA />
+      <MyUseRefComponent />
     </>
   )
 }
