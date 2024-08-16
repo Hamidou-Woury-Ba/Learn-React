@@ -1,26 +1,26 @@
 import Header from "./Header"
-import Footer from "./Footer"
-import Food from "./Food"
-import Card from "./Card"
+import Footer from "./custom/Footer"
+import Card from "./components/AllComponents/Card/Card"
 import Button from "./Button/Button"
 import Student from "./Student"
 import UserGreetings from "./UserGreetings"
-import List from "./List"
+import List from "./components/AllComponents/ListsFruitsLegumes/component/ListFruitsLegumes"
 import Boutton from "./Boutton"
 import ProfilePicture from "./ProfilePicture"
-import Counter from "./Counter"
-import MyComponent from "./MyComponent"
-import MyComponentForm from "./MyComponentForm"
-import ColorPicker from "./ColorPicker"
-import MyCarComponent from "./MyCarComponent"
-import ImportArrayListComponent from "./ImportArrayListComponent"
-import MyCarObjectComponent from "./MyCarObjectComponent"
-import ToDoList from "./ToDoList"
-import MyUseEffectComponent from "./MyUseEffectComponent"
-import DigitalClock from "./DigitalClock"
+import Counter from "./components/AllComponents/Counter"
+import MyComponent from "./components/AllComponents/Forms/components/MyComponent"
+import MyComponentForm from "./components/AllComponents/Forms/components/MyComponentForm"
+import ColorPicker from "./components/AllComponents/ColorPicker/ColorPicker"
+import MyCarComponent from "./components/AllComponents/Forms/components/MyCarComponent"
+import ImportArrayListComponent from "./components/AllComponents/ImportArrayListComponent"
+import MyCarObjectComponent from "./components/AllComponents/Forms/components/MyCarObjectComponent"
+import ToDoList from "./components/AllComponents/TODOLIST/ToDoList"
+import MyUseEffectComponent from "./components/AllComponents/ReactHooks/components/UseEffect/MyUseEffectComponent"
+import DigitalClock from "./components/AllComponents/DigitalClock/DigitalClock"
 import ComponentA from "./ComponentA"
 import MyUseRefComponent from "./MyUseRefComponent"
-import StopWatch from "./StopWatch"
+import StopWatch from "./components/AllComponents/Watch/StopWatch"
+import Index from "./Index"
 
 
 /*React hook
@@ -59,32 +59,9 @@ import StopWatch from "./StopWatch"
 */   
   function App() {
 
-  /* List 
-  const fruits = [
-    { id : 1, name : "apple", colories : "95"}, 
-    { id : 2, name : "orange" , colories : 45}, 
-    { id : 3, name : "banana" , colories : 105}, 
-    { id : 4, name : "coconut" , colories : 159}, 
-    { id : 5, name : "pinapple" , colories : 37}
-  ]
-
-  const vegetables = [
-    { id : 6, name : "potatoes", colories : 110}, 
-    { id : 7, name : "celery" , colories : 15}, 
-    { id : 8, name : "carrots" , colories : 25}, 
-    { id : 9, name : "corn" , colories : 63}, 
-    { id : 10, name : "broccoli" , colories : 50}
-  ]
-
-  On me ce code dans le return
-  {fruits.length > 0 && <List items={fruits} category = "Fruits"/>} 
-  {vegetables.length > 0 && <List items={vegetables} category = "Vegetables"/>} 
-
-    */
-
   return (
     <>
-      <StopWatch />
+      <Index   />
     </>
   )
 }

@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 10%);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+  
+  .card .cardImage{
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card .cardTitle{
+    margin: 0px;
+    color: black hsl(0, 0, 20%);
+  }
+  
+  .card .cardText{
+    color: black hsl(0, 0, 30%);
+  } 
